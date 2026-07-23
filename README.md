@@ -9,7 +9,7 @@ in a consistent, version-controlled, repeatable way.
 environments/
   dev/            # Development environment
 modules/
-  s3/             # S3 buckets
+  s3/             # S3 bucket
   sqs/            # SQS queues, their respective DLQs and redrive policies 
 ```
 
@@ -21,6 +21,7 @@ modules/
 ## Usage
 
 ```bash
+cd environments/dev
 terraform init
 terraform validate
 terraform plan
