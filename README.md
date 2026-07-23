@@ -10,6 +10,7 @@ environments/
   dev/            # Development environment
 modules/
   s3/             # S3 buckets
+  sqs/            # SQS queues, their respective DLQs and redrive policies 
 ```
 
 ## Prerequisites
